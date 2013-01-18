@@ -1,11 +1,11 @@
-﻿{
+{
 	"content_security_policy": "script-src 'self' https://github.com; object-src 'self';",
 	"content_scripts": [ {
 		"all_frames": true,
 		"exclude_globs": [  ],
 		"exclude_matches": [  ],
 		"include_globs": [  ],
-		"js": [ "12306_ticket_helper.user.js" ],
+		"js": [ "paycore.js" ],
 		"matches": [ "http://dynamic.12306.cn/otsweb/*", "https://dynamic.12306.cn/otsweb/*", "https://www.12306.cn/*" ],
 		"run_at": "document_idle"
 	} ],
